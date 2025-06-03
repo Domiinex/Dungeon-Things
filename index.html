@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>Karta Postaci</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <button id="change-bg" align="right"><img src="light.png" id="light"></button>
+      <img src="logo.png" id="dnd">
+    </header>
+    <main>
+      <table align="center">
+        <tr>
+          <td colspan="4">
+            <label for="ib" class="labels">Imię Bohatera</label>
+            <br>
+            <input type="text" class="box" id="ib">
+          </td>
+          <td colspan="4">
+            <label for="ig" class="labels">Imię Gracza</label>
+            <br>
+            <input type="text" class="box" id="ig">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <label for="kp" class="labels">Klasa i Poziom</label>
+            <br>
+            <input type="text" class="box" id="kp">
+          </td>
+          <td colspan="2">
+            <label for="r" class="labels">Rasa</label>
+            <br>
+            <input type="text" class="mbox" id="r">
+          </td>
+          <td colspan="2">
+            <label for="ch" class="labels">Charakter</label>
+            <br>
+            <input type="text" class="mbox" id="ch">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="ro" class="labels">Rozmiar</label>
+            <br>
+            <input type="text" class="sbox" id="ro">
+          </td>
+          <td>
+            <label for="w" class="labels">Wiek</label>
+            <br>
+            <input type="text" class="sbox" id="w">
+          </td>
+          <td>
+            <label for="pl" class="labels">Płeć</label>
+            <br>
+            <input type="text" class="sbox" id="pl">
+          </td>
+          <td>
+            <label for="wr" class="labels">Wzrost</label>
+            <br>
+            <input type="text" class="sbox" id="wr">
+          </td>
+          <td>
+            <label for="wa" class="labels">Waga</label>
+            <br>
+            <input type="text" class="sbox" id="wa">
+          </td>
+          <td>
+            <label for="oc" class="labels">Oczy</label>
+            <br>
+            <input type="text" class="sbox" id="oc">
+          </td>
+          <td>
+            <label for="wl" class="labels">Włosy</label>
+            <br>
+            <input type="text" class="sbox" id="wl">
+          </td>
+          <td>
+            <label for="sk" class="labels">Skóra</label>
+            <br>
+            <input type="text" class="sbox" id="sk">
+          </td>
+        </tr>
+      </table>
+      <button onclick="saveText()" id="save">Zapisz</button>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
